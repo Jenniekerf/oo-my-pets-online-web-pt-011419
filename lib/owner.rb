@@ -1,9 +1,12 @@
 class Owner
   
+  attr_reader :species
+  
   @@all = []
   
   def initialize(name)
     @@all << self
+    @species = species
   end
   
   def self.all 
