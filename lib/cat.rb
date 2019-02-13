@@ -1,6 +1,6 @@
 class Cat
   
-  def initialize(cat)
+  def initialize(name)
     
   end
 
