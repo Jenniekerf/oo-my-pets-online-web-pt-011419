@@ -48,6 +48,7 @@ pets.clear
   
   def list_pets
     
+    "I have #{pets[:fishes].count} fish, #{} dog(s), and #{} cat(s)."
   end
   
   def name 
