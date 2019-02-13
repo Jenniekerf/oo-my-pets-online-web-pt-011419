@@ -1,6 +1,6 @@
 class Dog
   
-  attr_accessible :mood
+  attr_accessor :mood
   attr_writer :name 
   
   def initialize(name, mood = "nervous")
