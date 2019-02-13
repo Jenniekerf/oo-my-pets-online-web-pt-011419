@@ -32,11 +32,11 @@ class Owner
   end
   
   def play_with_cats
-    pets[:cats].each {|c| c.mood = "happy"
+    pets[:cats].each {|c| c.mood = "happy"}
   end
   
   def feed_fish
-    pets[:fish].each {|f| f.mood = "happy"
+    pets[:fish].each {|f| f.mood = "happy"}
   end
   
   def sell_pets
