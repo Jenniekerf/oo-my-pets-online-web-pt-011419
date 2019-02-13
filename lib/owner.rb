@@ -40,7 +40,7 @@ class Owner
   end
   
   def sell_pets
-    if pets
+    pets.each do |species, pets| pets.empty?
   end
   
   def list_pets
